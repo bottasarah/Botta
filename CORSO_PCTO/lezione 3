@@ -46,3 +46,72 @@ bonus_vita = 1
 livello = 8
 if (vite < 1 and livello == 8) or (bonus_vita > 0 and boss == "mamma"):
     print("hai una vita in più")
+_______________________________________________________________________
+
+risposta_a = input("Ti piace veramente viaggiare? y/n:")
+if risposta_a == "y":
+    risposta_b == input("Ti piace il Burundi? y/n:")
+    if risposta_b == "y":
+        print("Complimenti hai vinto")
+    else:
+        print("Mi spiace hai perso")
+else:
+    print("Peccato")
+________________________________________________________________________
+contatore = 1
+while contatore < 11: #finché
+    print(contatore)
+    contatore += 1
+print("Finito")
+
+numero_segreto = 14
+numero_inserito = int(input("Indovina il numero segreto")
+sbagli = 0
+while numero_inserito !=numero_segreto:
+    print("Sbagliato")
+    sbagli += 1
+    numero_inseritp = int(input("Riprova dai: "))
+print("Perfetto! hai indovinato")
+print("hai sbagliato solo:")
+print(sbagli)
+________________________________________________________________________
+contatore = 1
+while contatore < 11:
+    print(contatore)
+    contatore += 1
+print ("Finito!")
+
+for x in range(1,11):
+    print(contatore)
+   print("Finito")
+_________________________________________________________________________
+for x in "Ciao":
+    print("Ciao")
+_________________________________________________________________________
+range #prende tutti i numeri tra due numeri, se gli do un numero parte da 0, tre numeri invece (1,10,2), l'ultimo numero sarà ogni quanto deve contare
+______________________________________________________________________________________________________________________________________________________
+while True:
+    nome = input("Inserisci il tuo nome o ESCI per uscire: ")
+    if (nome == "ESCI"):
+       break
+    print("Ciao",nome)
+_____________________________________________________________________________
+for i in range(1,21):
+    if i % 5 == 0: #se i è divisibile per 5 e mi da come risultato 0, scrivilo
+       continue
+    print(i)
+______________________________________________________________________________
+for i in range (11):
+   pass #non serve a niente, solo per non lasciare una funzione vuota
+______________________________________________________________________________
+for a in range (1,6):
+    for b in range (1,6):
+        print(a, "moltiplicato per", b, "=", a*b)
+______________________________________________________________________________
+i = 1
+while i < 5:
+   print(i)
+   i += 1
+   
+else:
+   print("numero:", i)
