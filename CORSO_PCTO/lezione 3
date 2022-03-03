@@ -9,6 +9,9 @@ ________________________________________________________________________________
 >= #questo è maggiore - uguale
 <= #questo è minore - uguale
 ! #è diverso
+== #uguale
+> #maggiore
+< #minore
 
 esempio:
 password = input("Scrivimi la password")
