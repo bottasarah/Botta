@@ -1,1 +1,45 @@
+eta = int(input("Quanti anni hai?"))
+if eta > 30: #if è obbligatoria
+    print("Sei vecchio") #bisogna lasciare lo spazio per includere nella funzione
+elif eta = 30 
+    print("Stai in pari")
+else:
+    print("Sei un giovincello") #se tutte le precedenti sono false, scrivi questa
+_________________________________________________________________________________
+>= #questo è maggiore - uguale
+<= #questo è minore - uguale
+! #è diverso
 
+esempio:
+password = input("Scrivimi la password")
+if password != "123stella":
+    print("Non corretta")
+else:
+    print("Bravo conosci la password")
+    
+if True: #se è vero
+    print("Ciao")
+    
+if 2 == 2,0: #utilizzo il doppio uguale per fare una comparazione, un confronto
+    print("Uguali")
+    
+eta =
+if eta > 30 and quartiere == "vomero": #questo "if" funziona solo quando le due variabili saranno queste
+________________________________________________________________________________________________________   
+ESPRESSIONI LOGICHE
+    and #se entrambe sono vere allora scrivi
+    or #se una sola è vera fai questo
+    not #fai l'opposto
+    
+esempio:
+eta = 31
+quartiere = "vomero"
+citta = "roma"
+if eta > 30 and quartiere == "vomero" or citta == "napoli" #le prime due vero, la terza falso, quindi vero x falso = vero
+
+esempio:
+vite = 31
+bonus_vita = 1
+livello = 8
+if (vite < 1 and livello == 8) or (bonus_vita > 0 and boss == "mamma"):
+    print("hai una vita in più")
