@@ -1,0 +1,110 @@
+citta_1 = "Napoli"
+citta_2 = "Roma"
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"] #creo una lista nelle parentesi
+
+print(lista_citta[0]) #mi dirà Napoli
+print(lista_citta[-1]) #mi dirà Caserta
+print(lista-citta[0:2]) #l'ultimo numero non viene contato
+print(lista_citta[:]) #prende tutti i valori
+print(lista_citta[2:]) #andrà da 2 fino alla fine, il 2 sarà compreso ovviamente
+print(list_citta[2:100]) #prenderà tutte le città, non gli interessa il seconda numero, è diverso dalla condizione singola
+__________________________________________________________________________________________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+
+del lista_citta[1] #mi cancella Roma
+del lista_citta[:] #cancello tutto quello che ho dentro alla lista, il contenuto
+del lista_citta[] #cancello tutta la lista
+__________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+
+lista_citta.append("Salerno") #lo aggiungo alla fine
+lista_citta.insert(1,"Salerno") #lo inserisco indicando la posizione
+____________________________________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+for x in lista_citta: #per ogni elemento della lista fai questo
+    print("La citta è:" : x)
+___________________________________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+for citta_indice in range(len(lista_citta)): #con "len" chiedo la lunghezza e mi dice quanti elementi ci sono nella lista
+    print("Indice:", citta_indice, "Citta:", lista_citta[citta_indice])
+_______________________________________________________________________
+spese = [1,2,4,6]
+somma = 0
+for spesa in spese:
+    somma += spesa
+print("hai speso:", somma)
+______________________________________________________________________
+citta_1 = "Roma"
+citta_2 = "Napoli"
+
+temp = citta_1
+citta_1 = citta_2
+citta_2 = temp
+_______________________________________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+lista_[0], lista_citta[1] = lista_citta[1], lista_citta[0] #scambiare di posto
+______________________________________________________________________________
+lista_citta = ["Napoli", "Roma", "Milano", "Bari, "Caserta"]
+lista_citta.sort() #la metto in ordine alfabetico
+lista_citta.sort(reverse=True) #le mette in ordine alfabetico al contrario
+print(lista_citta) #mi mostra la lista
+
+print(sorted(lista_citta) #faccio lo stesso, li sposto di posto
+______________________________________________________________________________
+invitati = ["Antonio", "Marco", "Giulio", "Matteo"]
+nome = input("Come ti chiami?")
+if nome not in invitati:
+    print("Nessuno ti ha invitato")
+else: 
+    print("Benvenuto")
+_____________________________________________________________________________
+lista = [1,2,3]
+nuova_lista = lista[:]
+lista[0] = -5
+print(lista)
+print(nuova_lista)
+
+lista = [1,2,3]
+numeri = []
+for i in range(1,101):
+    numeri.append(i)
+print(numeri)
+
+numeri = [i for i in range(1,101)]
+print(numeri)
+__________________________________
+numeri = [1,2,3]
+paesi = ["IT", "UK", "FR"]
+celle = [["A1", "A2", "A3"], ["B1", "B2", "B3"]] #questa è la lista di una lista
+print(celle[0]) #in questo modo prendo una lista, da A1 ad A3
+print(celle[0][2]) #prendo solo A3
+print(celle) #mi fa vedere entrambe le liste
+
+celle = [["A1", "A2", "A3"], ["B1", "B2", "B3"]]
+for x in celle: #l'insieme più grande mi diventa la prima lista
+    for y in x: 
+        print("elemento")
+__________________________________________________________________________________
+lista1 = ["Napoli"]
+lista2 = ["Roma"]
+lista_somma = [lista1 + lista2]
+
+lista_numeri = [0,1] * 10
+print(lista_numeri)
+__________________________________________________________________________________
+nome = "Antonio"
+nome_maiuscolo = nome.upper()
+print(nome_maiuscolo) #nome maiuscolo
+___________________________________________________________________________________
+#le liste si creano con le parentesi quadre, le tuple con le tone
+#le tuple non si possono modificare, sono immutabiie e non si possono fare operazioni tranne quelle di lettura
+lista = []
+tuple = ()
+______________________________________________________________________________________________________________
+#i dizionari utilizzano le parentesi graffe, io cerco la parola e mi da la descrizione di essa, il dizionario è come le liste, può essere compilato al momento
+
+voti = () GRAFFE
+voti["Antonio"] = "5--"
+voti["Giovanni"] = "2++"
+#non gli sto dando un dizionario in questo momento
+print(len(voti)) #lunghezza
